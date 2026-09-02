@@ -11,7 +11,6 @@ feature_names = joblib.load("feature_names.pkl")
 
 st.title("Heart Disease Prediction App")
 st.write("Enter patient details below to predict the likelihood of heart disease.")
-st.caption("This tool is for educational purposes only and is not a substitute for professional medical advice.")
 
 st.header("Patient Information")
 
